@@ -1,0 +1,79 @@
+/* *****COMMON****** */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:darkslategrey ;
+    padding: 0 3rem;
+}
+
+
+/* *****MAIN CSS****** */
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    
+}
+
+.card-container{
+    height: 90vh;
+    width: 100%;
+    padding: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: calc(100% / 5);
+    width: calc(100% / 7 - 1rem);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 10px;
+    padding: 0.2rem;
+    opacity: 0.6;
+}
+         
+
+/* ******FOOTER******* */
+.tool-bar{
+    height: 10%;
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-tool{
+    line-height: 100%;
+    background-color: gray;
+    color: crimson;
+    font-size: 20px;
+    padding: 26px 10px;
+}
+
+.left-tool{
+    color: white;
+}
+
