@@ -7,12 +7,38 @@
 }
 
 body{
-    background-color:darkslategrey ;
-    padding: 0 3rem;
+    background-color: black;
 }
 
 
 /* *****MAIN CSS****** */
+
+         /* SEZIONE IN ALTO A DESTRA */
+.speaker{
+    padding: 5px;
+    background-color: gray;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    padding: 0.2rem;
+    opacity: 0.6;
+    top: 3px;
+    right: 20px;
+}
+
+.corner{
+    background-color: gray;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    padding: 0.2rem;
+    opacity: 0.6;
+    top: 3px;
+    right: 3px;
+
+}
+
+     /* ***SEZIONE PRINCIPALE*** */
 
 .container{
     height: 100vh;
@@ -57,23 +83,52 @@ body{
 
 /* ******FOOTER******* */
 .tool-bar{
-    height: 10%;
+    height: 10vh;
     width: 100%;
-    background-color: darkslategrey;
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .right-tool{
-    line-height: 100%;
+    height: 100%;
     background-color: gray;
-    color: crimson;
+    color: red;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.center-tool{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+ul i{
     font-size: 20px;
-    padding: 26px 10px;
 }
 
 .left-tool{
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
 }
+
+ul{
+    list-style-type: none;
+}
+
+.fa-solid.fa-share-from-square{
+    color: green;
+    font-size: 25px;
+}
+
+
 
